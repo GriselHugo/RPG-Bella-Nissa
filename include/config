@@ -1,0 +1,61 @@
+game {
+TITLE
+My RPG : Bella Nizza
+MUSIC
+10
+SOUND
+10
+}
+
+menu {
+}
+
+help {
+HELP_TEXT
+Use  ZQSD  keys to move, press E to access the inventory
+Press F for interact
+Press Left Shift to use the cycle (if in inventory), press again to walk
+Press Escape to pause while in game
+The data ara managed with the config file in include
+END
+}
+
+player {
+P_HP
+100
+P_DMG
+10
+P_RST
+100
+P_SPD
+5
+INV
+0,0,1,0,0
+}
+
+ennemy {
+human_HP
+30
+human_DMG
+10
+human_RST
+110
+human_SPD
+2
+human_RNG
+300
+
+boss_HP
+100
+boss_DMG
+40
+boss_SPD
+5
+boss_RNG
+600
+
+car_SPD
+8
+car_DMG
+100
+}
